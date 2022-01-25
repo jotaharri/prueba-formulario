@@ -13,7 +13,7 @@ El formulario tendrá que estar ubicado en el template ya creado "form-page.html
 
 Se podrá usar cualquier libreria externa que no esté incluida en el proyecto.
 
-## No será obligatorio pero se valorará de manera positiva 
+## No será obligatorio pero se valorará de manera positiva
 - Tymeleaf como motor de plantillas https://www.thymeleaf.org/
 - Uso de JQuery validation https://jqueryvalidation.org/
 - Uso de TDD
@@ -28,7 +28,7 @@ git clone https://github.com/belive-globalia/prueba-formulario.git
 Para ejecutar el proyecto:
 
 ```sh
-mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 ## Entrega
