@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Form Page</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<h3>Datos usuario registrado</h3>
+			<div class="col-sm-12 mt-5">
+				<p>
+					<label>Nombre: </label><br /> <strong th:text="${userModel.name}"></strong>
+				</p>
+
+				<p>
+					<label>Apellidos</label><br /> <strong
+						th:text="${userModel.lastName}"></strong>
+				</p>
+
+				<p>
+					<label>Telefono: </label><br /> <strong
+						th:text="${userModel.phone}"></strong>
+				</p>
+
+
+				<p>
+					<label>Correo: </label><br /> <strong th:text="${userModel.email}"></strong>
+				</p>
+
+				<p>
+					<label>Fecha nacimiento: </label><br /> <strong
+						th:text="${userModel.dateBird}"></strong>
+				</p>
+
+				<a th:href="@{/}" class="btn btn-primary">Volver</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
